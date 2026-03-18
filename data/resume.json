@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Shruthi Kodati",
+    "title": "Full Stack Developer & Computer Science Graduate Student",
+    "summary": "Computer Science graduate student with hands-on experience in full stack development, building scalable web applications and RESTful APIs using Python, Flask, and JavaScript. Focused on building scalable systems and high-quality user experiences. Experienced in building scalable data pipelines and backend systems for large-scale structured and unstructured datasets. Proficient in Python and SQL, with hands-on expertise in ETL development, data modeling, query optimization, and deploying data-intensive applications to production.",
+    "location": "Chicago, IL 60607",
+    "email": "shruthikodati24@gmail.com",
+    "phone": "4435746911",
+    "links": [
+      { "name": "LinkedIn", "url": "https://linkedin.com/in/shruthi-kodati/" },
+      { "name": "GitHub", "url": "https://github.com/Shruthikodati" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "College of Nursing | University of Illinois- Chicago",
+      "role": "Full Stack Developer (Graduate Hourly)",
+      "dates": "October 2025 - Current",
+      "location": "Chicago, IL",
+      "bullets": [
+        "Architected and developed a full-stack web application using Python, Flask, RESTful APIs, HTML5, CSS3, JavaScript, and SQL, reducing manual dietary planning effort by 40% through automated data processing and structured CRUD workflows.",
+        "Optimized backend API performance by implementing efficient routing, database queries, and structured data handling, decreasing average response time by 35% and improving data retrieval consistency.",
+        "Deployed and maintained a cloud-hosted application on Render using Git/GitHub-based CI/CD workflows, maintaining uptime, ensuring high availability, and reducing deployment errors through version-controlled releases."
+      ]
+    },
+    {
+      "company": "Housing Facilities | University of Illinois- Chicago",
+      "role": "Building Service Aide (Systems Support)",
+      "dates": "May 2025 - Current",
+      "location": "Chicago, IL",
+      "bullets": [
+        "Resolved and supported 50–70 weekly system-driven service requests, reducing average ticket resolution time by 30% through structured troubleshooting and root-cause analysis.",
+        "Identified recurring workflow inefficiencies and validation gaps, contributing to a 20% reduction in repeat service incidents.",
+        "Maintained operational logs and technical documentation improving audit traceability, cross-team collaboration, and process reliability across cross-functional production teams."
+      ]
+    },
+    {
+      "company": "Salesforce",
+      "role": "Salesforce Developer Intern",
+      "dates": "August 2023 - October 2023",
+      "location": "Remote",
+      "bullets": [
+        "Developed and enhanced CRM features using Apex and Lightning Web Components (LWC), applying object-oriented programming principles to automate business workflows that reduced manual processing steps by 30%.",
+        "Integrated external systems using REST APIs, JSON, and OAuth 2.0, improving secure data exchange and increasing cross-system data accuracy by 25%.",
+        "Debugged, tested, and deployed enhancements using Salesforce CLI, Git, and VS Code, improving feature release turnaround time by 20% through structured testing and version control."
+      ]
+    }
+  ],
+  "achievements": [
+    { "metric": "40%", "context": "Reduced manual dietary planning effort via automated data processing", "type": "efficiency" },
+    { "metric": "35%", "context": "Decreased average API response time by optimizing routing and queries", "type": "performance" },
+    { "metric": "30%", "context": "Reduced average ticket resolution time through structured troubleshooting", "type": "efficiency" },
+    { "metric": "87%", "context": "Reduced memory usage (5.7GB → 733MB) via optimized ETL pipeline", "type": "performance" },
+    { "metric": "85%", "context": "Improved Table Recall@5 using hybrid dense + sparse retrieval", "type": "accuracy" },
+    { "metric": "3.7M", "context": "Property tax records processed for geospatial analytics", "type": "scale" },
+    { "metric": "150", "context": "SEC 10-K filings (8GB) processed for financial document analysis", "type": "scale" }
+  ],
+  "projects": [
+    {
+      "title": "Multi-Modal RAG for SEC 10-K Financial Document Analysis",
+      "dates": "August 2025 - December 2025",
+      "stack": ["Python", "Flask", "FAISS", "BM25", "REST APIs"],
+      "bullets": [
+        "Architected and deployed a full-stack financial document analysis platform processing 150 SEC 10-K filings (8GB, 45K text chunks, 12K tables), building RESTful APIs with Flask for query routing, retrieval, and citation-backed responses.",
+        "Designed hybrid dense + sparse retrieval (FAISS + BM25) with structured table-aware indexing, improving Table Recall@5 to 85% and increasing Exact Match by 12 points over text-only baselines.",
+        "Integrated responsive frontend with optimized backend services, achieving 4.2s median latency, and deployed the end-to-end system with version-controlled releases."
+      ],
+      "links": []
+    },
+    {
+      "title": "San Francisco Property Tax Analysis and Gentrification Study",
+      "dates": "August 2025 - December 2025",
+      "stack": ["Python", "SQL", "GeoJSON", "REST APIs", "ETL"],
+      "bullets": [
+        "Developed a full-stack web application processing 3.7M property tax records (6GB GeoJSON) with backend REST APIs for dynamic filtering, aggregation, and geospatial analytics.",
+        "Engineered optimized ETL pipeline using streaming and memory-efficient data processing, reducing memory usage by 87% (5.7GB → 733MB), enabling scalable backend processing and improved system responsiveness.",
+        "Built interactive frontend dashboards supporting neighborhood-level exploration across 93 districts, deploying a structured client-server architecture for large-scale data visualization."
+      ],
+      "links": [
+        { "name": "Live Demo", "url": "https://shruthikodati.github.io/San-Francisco-Property-Tax-Analysis-Gentrification-Risk-Assessment/" }
+      ]
+    }
+  ],
+  "otherProjects": [
+    {
+      "title": "Chicago Traffic Crashes: Predictive Safety Analytics",
+      "dates": "2024",
+      "stack": ["Machine Learning", "EDA", "Model Evaluation", "Visualization", "Predictive Analysis"],
+      "bullets": [
+        "Analyzed 938K crash records with 48 features, building ensemble models (Random Forest, XGBoost, Neural Networks) achieving 0.597 RMSE for injury prediction.",
+        "Discovered 90% pedestrian injury rate and identified highest-risk corridors.",
+        "Deployed interactive dashboards on GitHub Pages with Plotly/Folium; implemented DBSCAN clustering for geographic hotspot identification."
+      ],
+      "links": []
+    },
+    {
+      "title": "Fairness in Targeted Advertisements",
+      "dates": "2024",
+      "stack": ["Bias Mitigation", "Fairness Metrics", "ML Modeling", "Synthetic Data Generation", "Responsible AI"],
+      "bullets": [
+        "Built comprehensive fairness evaluation framework addressing bias in targeted advertising by combining Meta's Ad Library (66K employment ads), FairJobs benchmark dataset (1M+ rows), and custom synthetic data.",
+        "Achieved 93.4% reduction in statistical parity difference while maintaining 99.2% accuracy, and improved Disparate Impact Ratio from non-compliant 0.70 to near-compliant 0.98.",
+        "Implemented multiple mitigation strategies including Reweighing, Adversarial Debiasing, and Threshold Optimization using Fairlearn and AIF360.",
+        "Published 11-page ACM research paper with mathematical formalization, ablation studies across three datasets, and statistical significance testing."
+      ],
+      "links": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["Python", "JavaScript", "C#", "ASP.NET", "Apex", "SQL", "Shell", "Kotlin"]
+    },
+    {
+      "category": "Frontend Development",
+      "items": ["HTML5", "CSS3", "Bootstrap", "React", "React.js", "LWC", "Responsive Web Design", "DOM Manipulation", "UI/UX Design"]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": ["Flask", "Node.js", "Next.js", "RESTful APIs", "MVC Architecture", "Server-Side Programming", "Authentication & Authorization", "Microservices Basics", "JSON", "XML", "OAuth 2.0", "Postman"]
+    },
+    {
+      "category": "Databases & Data Engineering",
+      "items": ["Microsoft SQL Server", "MySQL", "MongoDB", "Data Modeling", "Query Optimization", "Indexing", "Transactions", "ETL Pipelines", "Pandas", "NumPy", "Batch Data Processing"]
+    },
+    {
+      "category": "Cloud, DevOps & Tools",
+      "items": ["Git", "GitHub", "CI/CD", "Render", "Vercel", "Microsoft Azure", "AWS", "Linux", "Visual Studio Code", "Eclipse", "Salesforce CLI", "Unit Testing", "Agile Methodologies", "Open Source Technologies"]
+    },
+    {
+      "category": "Core Concepts",
+      "items": ["Data Structures", "Algorithms", "OOP", "Time & Space Complexity", "System Design", "SDLC", "Software Design"]
+    },
+    {
+      "category": "Visualization",
+      "items": ["PowerBI", "Tableau", "Jupyter Notebook"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "University of Illinois Chicago",
+      "dates": "Aug 2024 - May 2026"
+    },
+    {
+      "degree": "Bachelor of Technology in Computer Science",
+      "institution": "CVR College Of Engineering",
+      "dates": "Aug 2020 - May 2024"
+    }
+  ],
+  "certifications": [
+    "Salesforce Virtual Internship (CRM development and automation)",
+    "Agile Software Development Job Simulation (Forage)",
+    "Software Engineering Job Simulations with JPMorgan Chase and HP",
+    "Advanced Software Engineering Job Simulations with Walmart"
+  ],
+  "awards": [],
+  "extra": [
+    "Open source technologies"
+  ]
+}
