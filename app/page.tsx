@@ -5,6 +5,7 @@ import Splash from "@/components/Splash";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Achievements from "@/components/Achievements";
+import Publications from "@/components/Publications";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
@@ -44,6 +45,7 @@ export default function Home() {
       <div className="relative z-10 mx-auto max-w-5xl px-6 py-12 md:py-24 lg:py-32 flex flex-col gap-24 md:gap-32">
         <Hero />
         <Achievements />
+        <Publications />
         <Experience />
         <Projects />
         <Skills />

@@ -12,6 +12,7 @@ export default function CustomCursor() {
     // Only show custom cursor on devices with a fine pointer (mouse)
     if (window.matchMedia("(pointer: coarse)").matches) return;
     
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsVisible(true);
 
     const updateMousePosition = (e: MouseEvent) => {

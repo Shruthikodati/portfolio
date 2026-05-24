@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Shruthi Kodati",
-    "title": "Full Stack Developer & Computer Science Graduate Student",
-    "summary": "Computer Science graduate student with hands-on experience in full stack development, building scalable web applications and RESTful APIs using Python, Flask, and JavaScript. Focused on building scalable systems and high-quality user experiences. Experienced in building scalable data pipelines and backend systems for large-scale structured and unstructured datasets. Proficient in Python and SQL, with hands-on expertise in ETL development, data modeling, query optimization, and deploying data-intensive applications to production.",
+    "title": "Software Engineer & Computer Science Graduate Student",
+    "summary": "Software Engineer and CS graduate student (MS, UIC - May 2026) with hands-on experience designing, building, and shipping secure, scalable full-stack systems, from React frontends and RESTful API design to distributed backend architecture and cloud deployment. Delivered 40% reduction in manual effort and 35% faster response times on production systems real users depend on daily.",
     "location": "Chicago, IL 60607",
     "email": "shruthikodati24@gmail.com",
     "phone": "4435746911",
@@ -13,20 +13,25 @@
   },
   "experience": [
     {
-      "company": "College of Nursing | University of Illinois- Chicago",
-      "role": "Full Stack Developer (Graduate Hourly)",
-      "dates": "October 2025 - Current",
+      "company": "College of Nursing | University of Illinois Chicago",
+      "role": "Software Engineer / Full-Stack Developer, Graduate Assistant",
+      "dates": "Oct 2025 – May 2026",
       "location": "Chicago, IL",
       "bullets": [
-        "Architected and developed a full-stack web application using Python, Flask, RESTful APIs, HTML5, CSS3, JavaScript, and SQL, reducing manual dietary planning effort by 40% through automated data processing and structured CRUD workflows.",
-        "Optimized backend API performance by implementing efficient routing, database queries, and structured data handling, decreasing average response time by 35% and improving data retrieval consistency.",
-        "Deployed and maintained a cloud-hosted application on Render using Git/GitHub-based CI/CD workflows, maintaining uptime, ensuring high availability, and reducing deployment errors through version-controlled releases."
+        "Spearheaded greenfield development and cloud deployment of a live production web application using Python, Flask, RESTful APIs, HTML5, CSS3, and JavaScript on Render via Git/GitHub CI/CD, automating end-to-end clinical dietary workflows for 3+ active nursing research teams and eliminating 40% of manual processing effort across 500+ structured dietary records per workflow cycle.",
+        "Re-architected 12+ RESTful API endpoints by restructuring SQL query logic, introducing indexed relational schemas, and optimizing data pipeline throughput, achieving a 35% reduction in average API response time and hardening reliability under concurrent production load serving 10+ daily active users.",
+        "Engineered a responsive, accessible frontend with DOM-driven dynamic rendering, client-side form validation, and real-time user feedback across 8+ core workflow views, empowering non-technical clinical staff to confidently interact with complex structured data without engineering support.",
+        "Designed and implemented secure authentication and session management flows, multi-layer server-side input validation, and structured CRUD operations covering 10K+ managed database records, building the complete application stack to production engineering standards with defensible, maintainable architecture.",
+        "Owned the full CI/CD delivery lifecycle including pipeline configuration, zero-downtime version releases, Git branching strategy, and performance profiling, sustaining 100% production uptime across 6+ months of continuous active development.",
+        "Developed 6+ dynamic REST API endpoints for real-time data querying, structured aggregation, and clinical report generation, enabling nursing researchers to programmatically filter, access, and export structured dietary datasets directly from the live production system.",
+        "Partnered with nursing researchers and faculty across 10+ requirement sessions to elicit specifications, validate features, and drive rapid iteration cycles, delivering version-controlled zero-downtime production releases that 15+ active clinical users depend on daily.",
+        "Conducted systematic debugging, code reviews, and production performance profiling across the full application stack, proactively resolving 40+ critical bottlenecks and documenting all technical decisions to maintain engineering standards throughout the complete project lifecycle."
       ]
     },
     {
       "company": "Housing Facilities | University of Illinois- Chicago",
       "role": "Building Service Aide (Systems Support)",
-      "dates": "May 2025 - Current",
+      "dates": "May 2025 – May 2026",
       "location": "Chicago, IL",
       "bullets": [
         "Resolved and supported 50–70 weekly system-driven service requests, reducing average ticket resolution time by 30% through structured troubleshooting and root-cause analysis.",
@@ -47,34 +52,48 @@
     }
   ],
   "achievements": [
-    { "metric": "40%", "context": "Reduced manual dietary planning effort via automated data processing", "type": "efficiency" },
-    { "metric": "35%", "context": "Decreased average API response time by optimizing routing and queries", "type": "performance" },
-    { "metric": "30%", "context": "Reduced average ticket resolution time through structured troubleshooting", "type": "efficiency" },
-    { "metric": "87%", "context": "Reduced memory usage (5.7GB → 733MB) via optimized ETL pipeline", "type": "performance" },
-    { "metric": "85%", "context": "Improved Table Recall@5 using hybrid dense + sparse retrieval", "type": "accuracy" },
-    { "metric": "3.7M", "context": "Property tax records processed for geospatial analytics", "type": "scale" },
-    { "metric": "150", "context": "SEC 10-K filings (8GB) processed for financial document analysis", "type": "scale" }
+    { "metric": "93.4%", "context": "Statistical parity disparity eliminated as published in ACM", "type": "accuracy" },
+    { "metric": "99.2%", "context": "Model accuracy maintained while debiasing targeted ads", "type": "accuracy" },
+    { "metric": "40%", "context": "Manual clinical dietary processing effort reduced via greenfield web app design", "type": "efficiency" },
+    { "metric": "35%", "context": "Response time reduction across 12+ REST API endpoints under production load", "type": "performance" },
+    { "metric": "938K", "context": "Chicago crash records analyzed for predictive safety modeling", "type": "scale" },
+    { "metric": "25MB", "context": "Encrypted file transfer size supported across zero-knowledge platform", "type": "scale" },
+    { "metric": "100%", "context": "Continuous production uptime sustained across 6+ months", "type": "security" },
+    { "metric": "3,000+", "context": "Lines of cryptographic node logic built for custom messaging", "type": "scale" },
+    { "metric": "87%", "context": "Memory footprint reduction of geospatial analytics parsing", "type": "performance" },
+    { "metric": "85%", "context": "Multi-Modal Table Recall@5 retrieved via hybrid FAISS + BM25", "type": "accuracy" }
   ],
   "projects": [
     {
-      "title": "Multi-Modal RAG for SEC 10-K Financial Document Analysis",
-      "dates": "August 2025 - December 2025",
-      "stack": ["Python", "Flask", "FAISS", "BM25", "REST APIs"],
+      "title": "Cipher-Signal Protocol Encrypted Messenger",
+      "dates": "Jan 2026 - May 2026",
+      "stack": ["Node.js", "Socket.io", "Signal Protocol", "Ed25519", "X3DH", "Double Ratchet", "E2E Encryption"],
       "bullets": [
-        "Architected and deployed a full-stack financial document analysis platform processing 150 SEC 10-K filings (8GB, 45K text chunks, 12K tables), building RESTful APIs with Flask for query routing, retrieval, and citation-backed responses.",
-        "Designed hybrid dense + sparse retrieval (FAISS + BM25) with structured table-aware indexing, improving Table Recall@5 to 85% and increasing Exact Match by 12 points over text-only baselines.",
-        "Integrated responsive frontend with optimized backend services, achieving 4.2s median latency, and deployed the end-to-end system with version-controlled releases."
+        "Implemented the complete Signal Protocol stack (X3DH key agreement + Double Ratchet algorithm) from scratch in Node.js and Socket.io, producing a zero-knowledge platform supporting 25MB encrypted file transfers across 12 file types with forward secrecy and post-compromise recovery enforced at the protocol layer.",
+        "Hardened security with Ed25519 SPK signature verification, 256-bit session tokens, rate limiting, and replay attack prevention, eliminating path traversal vulnerabilities via UUID-namespaced storage and guaranteeing exactly-once message delivery via an ACK-based persistent offline queue with deduplication.",
+        "Designed the full backend architecture across 3,000+ lines of cryptographic application code, covering key registration, prekey bundle exchange, session initialization, and message dispatch."
+      ],
+      "links": [
+        { "name": "Live Demo", "url": "https://cipher-signal-protocol-messenger.onrender.com/" }
+      ]
+    },
+    {
+      "title": "Multi-Modal RAG for SEC 10-K Financial Document Analysis",
+      "dates": "Aug 2025 - Dec 2025",
+      "stack": ["Python", "Flask", "FAISS", "BM25", "LLaMA 3.2", "sentence-transformers", "REST APIs"],
+      "bullets": [
+        "Architected a two-stage RAG pipeline ingesting 150 SEC 10-K filings (8GB, 45K text chunks, 12K tables) with hybrid FAISS+BM25 retrieval and table row-sentence representation, achieving 85% Table Recall@5 and a 12-point Exact Match improvement over text-only baselines.",
+        "Deployed the production retrieval system (LLaMA 3.2, sentence-transformers, 8+ Flask API endpoints) with intelligent query routing and citation generation, attaining 96% faithfulness and 4.2s median latency across FinQA, DocFinQA, and FinDER benchmarks with full ablation studies across 3 evaluation datasets."
       ],
       "links": []
     },
     {
-      "title": "San Francisco Property Tax Analysis and Gentrification Study",
-      "dates": "August 2025 - December 2025",
-      "stack": ["Python", "SQL", "GeoJSON", "REST APIs", "ETL"],
+      "title": "SF Property Tax Analysis & Gentrification Risk Assessment",
+      "dates": "Aug 2025 - Dec 2025",
+      "stack": ["Python", "Altair", "GeoPandas", "REST APIs", "SQL"],
       "bullets": [
-        "Developed a full-stack web application processing 3.7M property tax records (6GB GeoJSON) with backend REST APIs for dynamic filtering, aggregation, and geospatial analytics.",
-        "Engineered optimized ETL pipeline using streaming and memory-efficient data processing, reducing memory usage by 87% (5.7GB → 733MB), enabling scalable backend processing and improved system responsiveness.",
-        "Built interactive frontend dashboards supporting neighborhood-level exploration across 93 districts, deploying a structured client-server architecture for large-scale data visualization."
+        "Constructed an end-to-end analytics pipeline processing 3.7M property tax records (6GB GeoJSON) across 93 San Francisco neighborhoods, implementing memory-optimized ETL with categorical encoding and streaming parsing that slashed data footprint by 87% (5.7GB to 733MB).",
+        "Surfaced 59.6% median property appreciation (2015 to 2023) via 15+ interactive Altair visualizations identifying high-risk displacement zones and quantifying COVID-19 housing market impact for urban planners and policymakers."
       ],
       "links": [
         { "name": "Live Demo", "url": "https://shruthikodati.github.io/San-Francisco-Property-Tax-Analysis-Gentrification-Risk-Assessment/" }
@@ -83,8 +102,19 @@
   ],
   "otherProjects": [
     {
+      "title": "Systematic Benchmarking of Multiple Sequence Alignment Algorithms",
+      "dates": "Jan 2026 - May 2026",
+      "stack": ["Bioinformatics", "Python", "Clustal Omega", "MUSCLE", "MAFFT", "T-Coffee", "SPS/CS Scoring"],
+      "bullets": [
+        "Evaluated and benchmarked computational efficiency and alignment accuracy of five prominent Multiple Sequence Alignment (MSA) algorithms (Clustal Omega, MUSCLE, MAFFT, Kalign, and T-Coffee) using reference alignments from BAliBASE 3.0.",
+        "Analyzed resource usage (execution time and memory footprint) across 150+ protein sequence datasets, correlating algorithm complexity with sequence length and divergence levels.",
+        "Calculated Sum-of-Pairs Scores (SPS) and Column Scores (CS) using Python, developing reproducible data visualization dashboards with Altair and Pandas to select optimal aligners."
+      ],
+      "links": []
+    },
+    {
       "title": "Chicago Traffic Crashes: Predictive Safety Analytics",
-      "dates": "2024",
+      "dates": "Jan 2025 - May 2025",
       "stack": ["Machine Learning", "EDA", "Model Evaluation", "Visualization", "Predictive Analysis"],
       "bullets": [
         "Analyzed 938K crash records with 48 features, building ensemble models (Random Forest, XGBoost, Neural Networks) achieving 0.597 RMSE for injury prediction.",
@@ -95,7 +125,7 @@
     },
     {
       "title": "Fairness in Targeted Advertisements",
-      "dates": "2024",
+      "dates": "Jan 2025 - May 2025",
       "stack": ["Bias Mitigation", "Fairness Metrics", "ML Modeling", "Synthetic Data Generation", "Responsible AI"],
       "bullets": [
         "Built comprehensive fairness evaluation framework addressing bias in targeted advertising by combining Meta's Ad Library (66K employment ads), FairJobs benchmark dataset (1M+ rows), and custom synthetic data.",
@@ -109,43 +139,51 @@
   "skills": [
     {
       "category": "Programming Languages",
-      "items": ["Python", "JavaScript", "C#", "ASP.NET", "Apex", "SQL", "Shell", "Kotlin"]
+      "items": ["Python", "JavaScript", "TypeScript", "SQL", "C#", "Shell", "Scala", "Apex"]
     },
     {
       "category": "Frontend Development",
-      "items": ["HTML5", "CSS3", "Bootstrap", "React", "React.js", "LWC", "Responsive Web Design", "DOM Manipulation", "UI/UX Design"]
+      "items": ["HTML5", "CSS3", "React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "LWC", "Responsive Web Design", "DOM Manipulation", "UI/UX Design"]
     },
     {
       "category": "Backend & APIs",
-      "items": ["Flask", "Node.js", "Next.js", "RESTful APIs", "MVC Architecture", "Server-Side Programming", "Authentication & Authorization", "Microservices Basics", "JSON", "XML", "OAuth 2.0", "Postman"]
+      "items": ["Flask", "Node.js", "Express.js", "RESTful API Design", "GraphQL", "WebSockets", "Socket.io", "MVC Architecture", "Microservices", "Authentication & Authorization", "JWT", "OAuth 2.0", "JSON", "XML", "Postman", "Server-Side Programming"]
     },
     {
       "category": "Databases & Data Engineering",
-      "items": ["Microsoft SQL Server", "MySQL", "MongoDB", "Data Modeling", "Query Optimization", "Indexing", "Transactions", "ETL Pipelines", "Pandas", "NumPy", "Batch Data Processing"]
+      "items": ["MySQL", "Microsoft SQL Server", "PostgreSQL", "MongoDB", "Redis", "Schema Design", "Dimensional Modeling", "Query Optimization", "Indexing", "Partitioning", "Transactions", "Data Integrity", "ETL Pipelines", "Stream Processing", "Batch Processing", "Data Warehousing", "Data Quality Validation", "Pandas", "NumPy", "Airflow"]
+    },
+    {
+      "category": "Machine Learning & AI",
+      "items": ["Scikit-learn", "PyTorch", "XGBoost", "Random Forest", "DBSCAN", "FAISS", "BM25", "Feature Engineering", "Categorical Encoding", "Geospatial Analytics", "Fairlearn", "AIF360"]
+    },
+    {
+      "category": "Security",
+      "items": ["Signal Protocol (X3DH + Double Ratchet)", "Ed25519", "E2E Encryption", "Zero-Knowledge Architecture", "Replay Attack Prevention", "Session Token Management"]
     },
     {
       "category": "Cloud, DevOps & Tools",
-      "items": ["Git", "GitHub", "CI/CD", "Render", "Vercel", "Microsoft Azure", "AWS", "Linux", "Visual Studio Code", "Eclipse", "Salesforce CLI", "Unit Testing", "Agile Methodologies", "Open Source Technologies"]
+      "items": ["Git", "GitHub", "Docker", "CI/CD Pipelines", "Render", "Vercel", "Microsoft Azure", "AWS (S3, EC2, Glue, Redshift)", "Linux", "Nginx", "VS Code", "Eclipse", "Salesforce CLI", "Unit Testing", "Code Review", "Agile", "SDLC"]
+    },
+    {
+      "category": "Visualization & BI",
+      "items": ["PowerBI", "Tableau", "Altair", "Plotly", "Folium", "GeoPandas", "Jupyter Notebook"]
     },
     {
       "category": "Core Concepts",
-      "items": ["Data Structures", "Algorithms", "OOP", "Time & Space Complexity", "System Design", "SDLC", "Software Design"]
-    },
-    {
-      "category": "Visualization",
-      "items": ["PowerBI", "Tableau", "Jupyter Notebook"]
+      "items": ["Data Structures", "Algorithms", "OOP", "System Design", "Distributed Systems", "Concurrency", "Time & Space Complexity", "SDLC", "Software Design"]
     }
   ],
   "education": [
     {
-      "degree": "Master of Science in Computer Science",
+      "degree": "Master of Science in Computer Science | GPA: 3.60/4.0",
       "institution": "University of Illinois Chicago",
-      "dates": "Aug 2024 - May 2026"
+      "dates": "Aug 2024 – May 2026"
     },
     {
-      "degree": "Bachelor of Technology in Computer Science",
+      "degree": "Bachelor of Technology in Computer Science | GPA: 8.08/10",
       "institution": "CVR College Of Engineering",
-      "dates": "Aug 2020 - May 2024"
+      "dates": "Aug 2020 – May 2024"
     }
   ],
   "certifications": [
@@ -155,7 +193,5 @@
     "Advanced Software Engineering Job Simulations with Walmart"
   ],
   "awards": [],
-  "extra": [
-    "Open source technologies"
-  ]
+  "extra": []
 }

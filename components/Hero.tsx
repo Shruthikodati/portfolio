@@ -34,8 +34,12 @@ export default function Hero() {
           {resumeData.basics.title}
         </h2>
 
+        <div className="text-sm sm:text-base font-semibold text-cyan-400 tracking-wide uppercase max-w-2xl">
+          New Grad - Open to Software Engineer & Full-Stack roles | Actively Seeking Full time roles
+        </div>
+
         <p className="max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-          {resumeData.basics.summary.split(". ")[0]}. {resumeData.basics.summary.split(". ")[1]}.
+          {resumeData.basics.summary}
         </p>
 
         <div className="flex items-center gap-4 mt-2">
@@ -73,15 +77,14 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </button>
           
-          <a
-            href="/resume.pdf"
+          <Link
+            href="/resume"
             target="_blank"
-            rel="noopener noreferrer"
             className="group flex items-center justify-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-8 py-3 text-sm font-medium text-purple-200 transition-colors hover:bg-purple-500/20 backdrop-blur-sm"
           >
             <Download className="h-4 w-4" />
             Resume
-          </a>
+          </Link>
         </div>
       </motion.div>
     </section>

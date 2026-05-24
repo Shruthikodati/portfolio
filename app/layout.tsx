@@ -14,10 +14,10 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'Shruthi Kodati | Portfolio',
-  description: 'Full Stack Developer & Computer Science Graduate Student specializing in Machine Learning and Software Engineering.',
+  description: 'Software Engineer and CS graduate student building secure, scalable full-stack systems, data pipelines, and ML-powered applications. Python, Flask, Node.js, SQL.',
   openGraph: {
     title: 'Shruthi Kodati | Portfolio',
-    description: 'Full Stack Developer & Computer Science Graduate Student specializing in Machine Learning and Software Engineering.',
+    description: 'Software Engineer and CS graduate student building secure, scalable full-stack systems, data pipelines, and ML-powered applications. Python, Flask, Node.js, SQL.',
     url: 'https://shruthikodati.com',
     siteName: 'Shruthi Kodati Portfolio',
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Shruthi Kodati | Portfolio',
-    description: 'Full Stack Developer & Computer Science Graduate Student specializing in Machine Learning and Software Engineering.',
+    description: 'Software Engineer and CS graduate student building secure, scalable full-stack systems, data pipelines, and ML-powered applications. Python, Flask, Node.js, SQL.',
     images: ['https://picsum.photos/seed/portfolio/1200/630'],
   },
 };
