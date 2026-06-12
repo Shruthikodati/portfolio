@@ -20,7 +20,7 @@ export default function ResumePage() {
           </Link>
           <div className="h-4 w-[1px] bg-zinc-800" />
           <div className="flex items-center gap-2 text-xs text-zinc-400 font-mono">
-            <FileText className="h-4 w-4 text-cyan-400" />
+            <FileText className="h-4 w-4 text-emerald-400" />
             <span className="font-semibold text-zinc-300 truncate max-w-[120px] sm:max-w-xs">
               Shruthi_Kodati_Resume.pdf
             </span>
@@ -31,7 +31,7 @@ export default function ResumePage() {
         <div className="hidden md:flex items-center gap-3 bg-zinc-950/40 px-3 py-1 rounded border border-zinc-800/50 text-xs font-mono">
           <span className="text-zinc-500">Page 1 of 1</span>
           <div className="h-3 w-[1px] bg-zinc-800" />
-          <span className="text-cyan-400 font-bold">100% Original PDF</span>
+          <span className="text-emerald-400 font-bold">100% Original PDF</span>
         </div>
 
         {/* Actions */}
@@ -43,7 +43,7 @@ export default function ResumePage() {
             className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 text-zinc-100 px-3 py-1.5 rounded-md transition-colors text-xs font-semibold border border-zinc-700/50 active:scale-[0.98]"
             id="download-pdf-btn"
           >
-            <Download className="h-3.5 w-3.5 text-cyan-400" />
+            <Download className="h-3.5 w-3.5 text-emerald-400" />
             <span>Download</span>
           </a>
 
@@ -52,7 +52,7 @@ export default function ResumePage() {
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-cyan-600 hover:bg-cyan-500 text-white px-3 py-1.5 rounded-md transition-colors text-xs font-semibold border border-cyan-500/30 active:scale-[0.98]"
+            className="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-md transition-colors text-xs font-semibold border border-emerald-500/30 active:scale-[0.98]"
             id="open-original-btn"
           >
             <ExternalLink className="h-3.5 w-3.5" />

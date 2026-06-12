@@ -1,1 +1,169 @@
 @import "tailwindcss";
+
+/* Base styles for Light Theme */
+html.light {
+  color-scheme: light;
+}
+
+html.light body,
+html.light main {
+  background-color: #f7f9fc !important;
+  color: #1f2937 !important;
+}
+
+/* Base text color overrides for Light Theme */
+html.light h1,
+html.light h2,
+html.light h3,
+html.light h4,
+html.light h5,
+html.light h6,
+html.light .text-zinc-100,
+html.light .text-zinc-50,
+html.light .text-white {
+  color: #111827 !important; /* Cool gray 900 */
+}
+
+html.light .text-zinc-300,
+html.light .text-zinc-400,
+html.light .text-zinc-450,
+html.light .text-zinc-500,
+html.light .text-white\/50,
+html.light .text-zinc-400:not(.text-emerald-400) {
+  color: #4b5563 !important; /* Cool gray 600 */
+}
+
+html.light .text-zinc-500 {
+  color: #6b7280 !important; /* Cool gray 500 */
+}
+
+/* Card overrides for Light Theme */
+html.light .bg-zinc-900\/10,
+html.light .bg-zinc-900\/20,
+html.light .bg-zinc-900\/40,
+html.light .bg-zinc-950\/40,
+html.light .bg-white\/\[0\.02\],
+html.light .bg-white\/\[0\.04\] {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(229, 231, 235, 0.9) !important; /* Cool gray 200 */
+  box-shadow: 0 4px 20px -2px rgba(17, 24, 39, 0.04), 0 2px 8px -1px rgba(17, 24, 39, 0.02) !important;
+}
+
+html.light .hover\:bg-zinc-800\/20:hover,
+html.light .hover\:bg-zinc-900\/20:hover {
+  background-color: rgba(243, 244, 246, 0.9) !important;
+}
+
+/* Border overrides for Light Theme */
+html.light .border-zinc-800\/40,
+html.light .border-zinc-800\/55,
+html.light .border-zinc-800\/80,
+html.light .border-zinc-805,
+html.light .border-zinc-850,
+html.light .border-zinc-800,
+html.light .border-white\/5,
+html.light .border-white\/10 {
+  border-color: rgba(229, 231, 235, 1) !important; /* Cool gray 200 */
+}
+
+/* Custom categories / highlights badge bg */
+html.light .bg-emerald-950\/30,
+html.light .bg-emerald-950\/20,
+html.light .bg-emerald-500\/10 {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+}
+html.light .border-emerald-500\/10 {
+  border-color: rgba(16, 185, 129, 0.25) !important;
+}
+
+html.light .bg-teal-950\/30,
+html.light .bg-teal-950\/20,
+html.light .bg-teal-500\/10 {
+  background-color: rgba(20, 184, 166, 0.1) !important;
+}
+html.light .border-teal-500\/10 {
+  border-color: rgba(20, 184, 166, 0.25) !important;
+}
+
+html.light .bg-indigo-950\/30,
+html.light .bg-indigo-950\/20,
+html.light .bg-indigo-500\/10 {
+  background-color: rgba(99, 102, 241, 0.1) !important;
+}
+html.light .border-indigo-500\/10 {
+  border-color: rgba(99, 102, 241, 0.25) !important;
+}
+
+html.light .bg-sky-950\/30,
+html.light .bg-sky-950\/20,
+html.light .bg-sky-500\/10 {
+  background-color: rgba(14, 165, 233, 0.1) !important;
+}
+html.light .border-sky-500\/10 {
+  border-color: rgba(14, 165, 233, 0.25) !important;
+}
+
+/* Ambient dynamic orbs light mode fallback */
+html.light .bg-emerald-500\/\[0\.03\] {
+  background-color: rgba(16, 185, 129, 0.04) !important;
+}
+html.light .bg-sky-500\/\[0\.03\] {
+  background-color: rgba(14, 165, 233, 0.04) !important;
+}
+html.light .bg-indigo-500\/\[0\.02\] {
+  background-color: rgba(99, 102, 241, 0.03) !important;
+}
+
+/* Nav Bar light overrides */
+html.light nav > div {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border-color: rgba(229, 231, 235, 0.8) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light nav .text-zinc-400 {
+  color: #4b5563 !important;
+}
+html.light nav .text-zinc-400:hover {
+  color: #10b981 !important; /* emerald text hover */
+}
+html.light nav .bg-white\/10 {
+  background-color: rgba(229, 231, 235, 1) !important;
+}
+
+/* Contact form light override */
+html.light input,
+html.light textarea {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: rgba(229, 231, 235, 1) !important;
+  color: #1f2937 !important;
+}
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Direct email contact container */
+html.light .bg-zinc-950\/40 {
+  background-color: rgba(243, 244, 246, 0.5) !important;
+  border-color: rgba(229, 231, 235, 1) !important;
+}
+
+/* Custom scroll progress indicator */
+html.light .bg-gradient-to-r.from-emerald-400.via-teal-500.to-sky-500 {
+  background: linear-gradient(to right, #10b981, #14b8a6, #0ea5e9) !important;
+}
+
+/* Custom Cursor pointer adjustment for light contrast */
+html.light .border-emerald-500\/30 {
+  border-color: rgba(16, 185, 129, 0.5) !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
+}
+
+/* Splash component */
+html.light .bg-\[\#050505\] {
+  background-color: #fafafa !important;
+}
+html.light .text-zinc-500 {
+  color: #9ca3af !important;
+}

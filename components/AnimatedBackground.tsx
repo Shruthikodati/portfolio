@@ -28,7 +28,7 @@ class Particle {
   draw(ctx: CanvasRenderingContext2D) {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-    ctx.fillStyle = "rgba(6, 182, 212, 0.5)"; // Cyan particles
+    ctx.fillStyle = "rgba(16, 185, 129, 0.25)"; // Emerald sage particles
     ctx.fill();
   }
 }
@@ -80,7 +80,7 @@ export default function AnimatedBackground() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(168, 85, 247, ${0.2 - distance / 600})`; // Purple lines
+            ctx.strokeStyle = `rgba(14, 165, 233, ${0.12 - distance / 1000})`; // Sky blue lines
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -91,11 +91,11 @@ export default function AnimatedBackground() {
     const animate = () => {
       if (!ctx || !canvas) return;
       
-      // Vibrant gradient mesh background
+      // Soothing gradient mesh background
       const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-      gradient.addColorStop(0, "#0f0c29"); // Deep purple/black
-      gradient.addColorStop(0.5, "#302b63"); // Mid purple
-      gradient.addColorStop(1, "#24243e"); // Dark blue
+      gradient.addColorStop(0, "#080c10"); // Quiet Deep Slate Blue
+      gradient.addColorStop(0.5, "#0d131a"); // Midnight Deep Blue-Gray
+      gradient.addColorStop(1, "#070a0e"); // Dark Slate
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -124,7 +124,7 @@ export default function AnimatedBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 w-full h-full pointer-events-none -z-10"
-      style={{ background: "#0f0c29" }}
+      style={{ background: "#080c10" }}
     />
   );
 }

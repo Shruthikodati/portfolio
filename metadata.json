@@ -1,5 +1,6 @@
 {
   "name": "Shruthi Kodati Portfolio",
   "description": "Software Engineer and CS graduate student building secure, scalable full-stack systems, data pipelines, and ML-powered applications.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

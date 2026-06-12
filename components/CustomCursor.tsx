@@ -46,23 +46,23 @@ export default function CustomCursor() {
 
   return (
     <motion.div
-      className="pointer-events-none fixed left-0 top-0 z-[9999] hidden h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/50 bg-cyan-500/10 backdrop-blur-[2px] md:block"
+      className="pointer-events-none fixed left-0 top-0 z-[9999] hidden h-7 w-7 -translate-x-1/2 -translate-y-1/2 rounded-full border border-emerald-500/30 bg-emerald-500/5 backdrop-blur-[1px] md:block"
       animate={{
         x: mousePosition.x,
         y: mousePosition.y,
-        scale: isHovering ? 1.5 : 1,
+        scale: isHovering ? 1.4 : 1,
         backgroundColor: isHovering
-          ? "rgba(6, 182, 212, 0.2)"
-          : "rgba(6, 182, 212, 0.1)",
+          ? "rgba(16, 185, 129, 0.15)"
+          : "rgba(16, 185, 129, 0.05)",
       }}
       transition={{
         type: "spring",
-        stiffness: 150,
-        damping: 15,
+        stiffness: 160,
+        damping: 16,
         mass: 0.1,
       }}
     >
-      <div className="absolute left-1/2 top-1/2 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.8)]" />
+      <div className="absolute left-1/2 top-1/2 h-1 w-1 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-400 opacity-80" />
     </motion.div>
   );
 }

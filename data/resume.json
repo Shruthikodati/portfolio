@@ -3,18 +3,24 @@
     "name": "Shruthi Kodati",
     "title": "Software Engineer & Computer Science Graduate Student",
     "summary": "Software Engineer and CS graduate student (MS, UIC - May 2026) with hands-on experience designing, building, and shipping secure, scalable full-stack systems, from React frontends and RESTful API design to distributed backend architecture and cloud deployment. Delivered 40% reduction in manual effort and 35% faster response times on production systems real users depend on daily.",
-    "location": "Chicago, IL 60607",
+    "location": "Chicago, IL",
     "email": "shruthikodati24@gmail.com",
-    "phone": "4435746911",
+    "phone": "443-574-6911",
     "links": [
-      { "name": "LinkedIn", "url": "https://linkedin.com/in/shruthi-kodati/" },
-      { "name": "GitHub", "url": "https://github.com/Shruthikodati" }
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/shruthi-kodati"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Shruthikodati"
+      }
     ]
   },
   "experience": [
     {
-      "company": "College of Nursing | University of Illinois Chicago",
-      "role": "Software Engineer / Full-Stack Developer, Graduate Assistant",
+      "company": "University of Illinois Chicago, College of Nursing",
+      "role": "Software Engineer (Graduate Assistant)",
       "dates": "Oct 2025 – May 2026",
       "location": "Chicago, IL",
       "bullets": [
@@ -29,7 +35,7 @@
       ]
     },
     {
-      "company": "Housing Facilities | University of Illinois- Chicago",
+      "company": "University of Illinois Chicago, Housing Facilities",
       "role": "Building Service Aide (Systems Support)",
       "dates": "May 2025 – May 2026",
       "location": "Chicago, IL",
@@ -40,9 +46,23 @@
       ]
     },
     {
-      "company": "Salesforce",
+      "company": "CVR College of Engineering, Research & Development Cell",
+      "role": "Software Engineer (Student Intern)",
+      "dates": "Nov 2023 – Jun 2024",
+      "location": "Hyderabad, India",
+      "bullets": [
+        "Developed a full-stack web application using React.js, Node.js, MongoDB, JavaScript, and Tailwind CSS to digitize and streamline research administration workflows and centralized data management.",
+        "Architected and implemented responsive frontend interfaces, RESTful APIs, backend services, and database-driven workflows for managing faculty profiles, research projects, publications, document submissions, and progress tracking.",
+        "Collaborated with stakeholders across 9 academic departments to gather requirements, analyze business processes, and translate functional needs into scalable and maintainable software solutions.",
+        "Built a centralized platform supporting 100+ faculty members, improving accessibility to research information, reducing manual effort, and enhancing operational efficiency.",
+        "Optimized application performance through efficient database design, API integration, data validation, debugging, and feature enhancements, ensuring reliability and a seamless user experience.",
+        "Executed the complete software development lifecycle, including requirements gathering, system design, development, testing, troubleshooting, deployment support, and continuous improvement initiatives."
+      ]
+    },
+    {
+      "company": "Salesforce, Remote",
       "role": "Salesforce Developer Intern",
-      "dates": "August 2023 - October 2023",
+      "dates": "Aug 2023 - Oct 2023",
       "location": "Remote",
       "bullets": [
         "Developed and enhanced CRM features using Apex and Lightning Web Components (LWC), applying object-oriented programming principles to automate business workflows that reduced manual processing steps by 30%.",
@@ -52,35 +72,94 @@
     }
   ],
   "achievements": [
-    { "metric": "93.4%", "context": "Statistical parity disparity eliminated as published in ACM", "type": "accuracy" },
-    { "metric": "99.2%", "context": "Model accuracy maintained while debiasing targeted ads", "type": "accuracy" },
-    { "metric": "40%", "context": "Manual clinical dietary processing effort reduced via greenfield web app design", "type": "efficiency" },
-    { "metric": "35%", "context": "Response time reduction across 12+ REST API endpoints under production load", "type": "performance" },
-    { "metric": "938K", "context": "Chicago crash records analyzed for predictive safety modeling", "type": "scale" },
-    { "metric": "25MB", "context": "Encrypted file transfer size supported across zero-knowledge platform", "type": "scale" },
-    { "metric": "100%", "context": "Continuous production uptime sustained across 6+ months", "type": "security" },
-    { "metric": "3,000+", "context": "Lines of cryptographic node logic built for custom messaging", "type": "scale" },
-    { "metric": "87%", "context": "Memory footprint reduction of geospatial analytics parsing", "type": "performance" },
-    { "metric": "85%", "context": "Multi-Modal Table Recall@5 retrieved via hybrid FAISS + BM25", "type": "accuracy" }
+    {
+      "metric": "93.4%",
+      "context": "Statistical parity disparity eliminated as published in ACM",
+      "type": "accuracy"
+    },
+    {
+      "metric": "99.2%",
+      "context": "Model accuracy maintained while debiasing targeted ads",
+      "type": "accuracy"
+    },
+    {
+      "metric": "40%",
+      "context": "Manual clinical dietary processing effort reduced via greenfield web app design",
+      "type": "efficiency"
+    },
+    {
+      "metric": "35%",
+      "context": "Response time reduction across 12+ REST API endpoints under production load",
+      "type": "performance"
+    },
+    {
+      "metric": "938K",
+      "context": "Chicago crash records analyzed for predictive safety modeling",
+      "type": "scale"
+    },
+    {
+      "metric": "25MB",
+      "context": "Encrypted file transfer size supported across zero-knowledge platform",
+      "type": "scale"
+    },
+    {
+      "metric": "100%",
+      "context": "Continuous production uptime sustained across 6+ months",
+      "type": "performance"
+    },
+    {
+      "metric": "3,000+",
+      "context": "Lines of cryptographic node logic built for custom messaging",
+      "type": "security"
+    },
+    {
+      "metric": "87%",
+      "context": "Memory footprint reduction of geospatial analytics parsing",
+      "type": "efficiency"
+    },
+    {
+      "metric": "85%",
+      "context": "Multi-Modal Table Recall@5 retrieved via hybrid FAISS + BM25",
+      "type": "accuracy"
+    }
   ],
   "projects": [
     {
       "title": "Cipher-Signal Protocol Encrypted Messenger",
       "dates": "Jan 2026 - May 2026",
-      "stack": ["Node.js", "Socket.io", "Signal Protocol", "Ed25519", "X3DH", "Double Ratchet", "E2E Encryption"],
+      "stack": [
+        "Node.js",
+        "Socket.io",
+        "Signal Protocol",
+        "Ed25519",
+        "X3DH",
+        "Double Ratchet",
+        "E2E Encryption"
+      ],
       "bullets": [
         "Implemented the complete Signal Protocol stack (X3DH key agreement + Double Ratchet algorithm) from scratch in Node.js and Socket.io, producing a zero-knowledge platform supporting 25MB encrypted file transfers across 12 file types with forward secrecy and post-compromise recovery enforced at the protocol layer.",
         "Hardened security with Ed25519 SPK signature verification, 256-bit session tokens, rate limiting, and replay attack prevention, eliminating path traversal vulnerabilities via UUID-namespaced storage and guaranteeing exactly-once message delivery via an ACK-based persistent offline queue with deduplication.",
         "Designed the full backend architecture across 3,000+ lines of cryptographic application code, covering key registration, prekey bundle exchange, session initialization, and message dispatch."
       ],
       "links": [
-        { "name": "Live Demo", "url": "https://cipher-signal-protocol-messenger.onrender.com/" }
+        {
+          "name": "Live Demo",
+          "url": "#"
+        }
       ]
     },
     {
       "title": "Multi-Modal RAG for SEC 10-K Financial Document Analysis",
       "dates": "Aug 2025 - Dec 2025",
-      "stack": ["Python", "Flask", "FAISS", "BM25", "LLaMA 3.2", "sentence-transformers", "REST APIs"],
+      "stack": [
+        "Python",
+        "Flask",
+        "FAISS",
+        "BM25",
+        "LLaMA 3.2",
+        "sentence-transformers",
+        "REST APIs"
+      ],
       "bullets": [
         "Architected a two-stage RAG pipeline ingesting 150 SEC 10-K filings (8GB, 45K text chunks, 12K tables) with hybrid FAISS+BM25 retrieval and table row-sentence representation, achieving 85% Table Recall@5 and a 12-point Exact Match improvement over text-only baselines.",
         "Deployed the production retrieval system (LLaMA 3.2, sentence-transformers, 8+ Flask API endpoints) with intelligent query routing and citation generation, attaining 96% faithfulness and 4.2s median latency across FinQA, DocFinQA, and FinDER benchmarks with full ablation studies across 3 evaluation datasets."
@@ -90,13 +169,22 @@
     {
       "title": "SF Property Tax Analysis & Gentrification Risk Assessment",
       "dates": "Aug 2025 - Dec 2025",
-      "stack": ["Python", "Altair", "GeoPandas", "REST APIs", "SQL"],
+      "stack": [
+        "Python",
+        "Altair",
+        "GeoPandas",
+        "REST APIs",
+        "SQL"
+      ],
       "bullets": [
         "Constructed an end-to-end analytics pipeline processing 3.7M property tax records (6GB GeoJSON) across 93 San Francisco neighborhoods, implementing memory-optimized ETL with categorical encoding and streaming parsing that slashed data footprint by 87% (5.7GB to 733MB).",
         "Surfaced 59.6% median property appreciation (2015 to 2023) via 15+ interactive Altair visualizations identifying high-risk displacement zones and quantifying COVID-19 housing market impact for urban planners and policymakers."
       ],
       "links": [
-        { "name": "Live Demo", "url": "https://shruthikodati.github.io/San-Francisco-Property-Tax-Analysis-Gentrification-Risk-Assessment/" }
+        {
+          "name": "Live Demo",
+          "url": "#"
+        }
       ]
     }
   ],
@@ -104,7 +192,15 @@
     {
       "title": "Systematic Benchmarking of Multiple Sequence Alignment Algorithms",
       "dates": "Jan 2026 - May 2026",
-      "stack": ["Bioinformatics", "Python", "Clustal Omega", "MUSCLE", "MAFFT", "T-Coffee", "SPS/CS Scoring"],
+      "stack": [
+        "Bioinformatics",
+        "Python",
+        "Clustal Omega",
+        "MUSCLE",
+        "MAFFT",
+        "T-Coffee",
+        "SPS/CS Scoring"
+      ],
       "bullets": [
         "Evaluated and benchmarked computational efficiency and alignment accuracy of five prominent Multiple Sequence Alignment (MSA) algorithms (Clustal Omega, MUSCLE, MAFFT, Kalign, and T-Coffee) using reference alignments from BAliBASE 3.0.",
         "Analyzed resource usage (execution time and memory footprint) across 150+ protein sequence datasets, correlating algorithm complexity with sequence length and divergence levels.",
@@ -115,7 +211,13 @@
     {
       "title": "Chicago Traffic Crashes: Predictive Safety Analytics",
       "dates": "Jan 2025 - May 2025",
-      "stack": ["Machine Learning", "EDA", "Model Evaluation", "Visualization", "Predictive Analysis"],
+      "stack": [
+        "Machine Learning",
+        "EDA",
+        "Model Evaluation",
+        "Visualization",
+        "Predictive Analysis"
+      ],
       "bullets": [
         "Analyzed 938K crash records with 48 features, building ensemble models (Random Forest, XGBoost, Neural Networks) achieving 0.597 RMSE for injury prediction.",
         "Discovered 90% pedestrian injury rate and identified highest-risk corridors.",
@@ -126,7 +228,13 @@
     {
       "title": "Fairness in Targeted Advertisements",
       "dates": "Jan 2025 - May 2025",
-      "stack": ["Bias Mitigation", "Fairness Metrics", "ML Modeling", "Synthetic Data Generation", "Responsible AI"],
+      "stack": [
+        "Bias Mitigation",
+        "Fairness Metrics",
+        "ML Modeling",
+        "Synthetic Data Generation",
+        "Responsible AI"
+      ],
       "bullets": [
         "Built comprehensive fairness evaluation framework addressing bias in targeted advertising by combining Meta's Ad Library (66K employment ads), FairJobs benchmark dataset (1M+ rows), and custom synthetic data.",
         "Achieved 93.4% reduction in statistical parity difference while maintaining 99.2% accuracy, and improved Disparate Impact Ratio from non-compliant 0.70 to near-compliant 0.98.",
@@ -138,51 +246,119 @@
   ],
   "skills": [
     {
-      "category": "Programming Languages",
-      "items": ["Python", "JavaScript", "TypeScript", "SQL", "C#", "Shell", "Scala", "Apex"]
+      "category": "Languages",
+      "items": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "C#",
+        "Shell"
+      ]
     },
     {
-      "category": "Frontend Development",
-      "items": ["HTML5", "CSS3", "React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "LWC", "Responsive Web Design", "DOM Manipulation", "UI/UX Design"]
+      "category": "Databases",
+      "items": [
+        "MySQL",
+        "Microsoft SQL Server",
+        "MongoDB",
+        "PostgreSQL",
+        "Redis",
+        "Schema Design",
+        "Query Optimization",
+        "Indexing",
+        "Transactions"
+      ]
     },
     {
-      "category": "Backend & APIs",
-      "items": ["Flask", "Node.js", "Express.js", "RESTful API Design", "GraphQL", "WebSockets", "Socket.io", "MVC Architecture", "Microservices", "Authentication & Authorization", "JWT", "OAuth 2.0", "JSON", "XML", "Postman", "Server-Side Programming"]
+      "category": "Frontend & Backend",
+      "items": [
+        "Flask",
+        "Node.js",
+        "Express.js",
+        "Next.js",
+        "React.js",
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "RESTful API Design",
+        "GraphQL",
+        "WebSockets",
+        "Socket.io",
+        "MVC Architecture",
+        "Authentication & Authorization",
+        "JWT",
+        "OAuth 2.0",
+        "OOP"
+      ]
     },
     {
-      "category": "Databases & Data Engineering",
-      "items": ["MySQL", "Microsoft SQL Server", "PostgreSQL", "MongoDB", "Redis", "Schema Design", "Dimensional Modeling", "Query Optimization", "Indexing", "Partitioning", "Transactions", "Data Integrity", "ETL Pipelines", "Stream Processing", "Batch Processing", "Data Warehousing", "Data Quality Validation", "Pandas", "NumPy", "Airflow"]
-    },
-    {
-      "category": "Machine Learning & AI",
-      "items": ["Scikit-learn", "PyTorch", "XGBoost", "Random Forest", "DBSCAN", "FAISS", "BM25", "Feature Engineering", "Categorical Encoding", "Geospatial Analytics", "Fairlearn", "AIF360"]
+      "category": "Data & ML",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "PyTorch",
+        "ETL Pipelines",
+        "FAISS",
+        "BM25",
+        "Data Modeling",
+        "Stream Processing",
+        "Geospatial Analytics"
+      ]
     },
     {
       "category": "Security",
-      "items": ["Signal Protocol (X3DH + Double Ratchet)", "Ed25519", "E2E Encryption", "Zero-Knowledge Architecture", "Replay Attack Prevention", "Session Token Management"]
+      "items": [
+        "Signal Protocol (X3DH + Double Ratchet)",
+        "Ed25519",
+        "E2E Encryption",
+        "Zero-Knowledge Architecture",
+        "Replay Attack Prevention"
+      ]
     },
     {
-      "category": "Cloud, DevOps & Tools",
-      "items": ["Git", "GitHub", "Docker", "CI/CD Pipelines", "Render", "Vercel", "Microsoft Azure", "AWS (S3, EC2, Glue, Redshift)", "Linux", "Nginx", "VS Code", "Eclipse", "Salesforce CLI", "Unit Testing", "Code Review", "Agile", "SDLC"]
+      "category": "Cloud & DevOps",
+      "items": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "CI/CD Pipelines",
+        "Render",
+        "Vercel",
+        "Microsoft Azure",
+        "AWS (S3, EC2)",
+        "Linux",
+        "Postman",
+        "Nginx",
+        "Agile",
+        "SDLC",
+        "Code Review",
+        "Unit Testing"
+      ]
     },
     {
-      "category": "Visualization & BI",
-      "items": ["PowerBI", "Tableau", "Altair", "Plotly", "Folium", "GeoPandas", "Jupyter Notebook"]
-    },
-    {
-      "category": "Core Concepts",
-      "items": ["Data Structures", "Algorithms", "OOP", "System Design", "Distributed Systems", "Concurrency", "Time & Space Complexity", "SDLC", "Software Design"]
+      "category": "Visualization",
+      "items": [
+        "PowerBI",
+        "Tableau",
+        "Altair",
+        "Plotly",
+        "Folium",
+        "Jupyter Notebook"
+      ]
     }
   ],
   "education": [
     {
-      "degree": "Master of Science in Computer Science | GPA: 3.60/4.0",
+      "degree": "Master of Science in Computer Science (GPA: 3.6/4.0)",
       "institution": "University of Illinois Chicago",
       "dates": "Aug 2024 – May 2026"
     },
     {
-      "degree": "Bachelor of Technology in Computer Science | GPA: 8.08/10",
-      "institution": "CVR College Of Engineering",
+      "degree": "Bachelor of Technology in Computer Science (GPA: 8.08/10)",
+      "institution": "CVR College of Engineering",
       "dates": "Aug 2020 – May 2024"
     }
   ],
@@ -191,7 +367,5 @@
     "Agile Software Development Job Simulation (Forage)",
     "Software Engineering Job Simulations with JPMorgan Chase and HP",
     "Advanced Software Engineering Job Simulations with Walmart"
-  ],
-  "awards": [],
-  "extra": []
+  ]
 }

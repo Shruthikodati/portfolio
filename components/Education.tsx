@@ -13,26 +13,26 @@ export default function Education() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-10"
+            className="mb-5"
           >
-            <h2 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl">
+            <h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-2xl">
               Education
             </h2>
           </motion.div>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-6">
             {resumeData.education.map((edu, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="flex flex-col"
+                transition={{ delay: index * 0.05 }}
+                className="flex flex-col border border-zinc-800/20 bg-zinc-900/5 hover:border-emerald-500/10 rounded-xl p-5 transition-colors duration-300"
               >
-                <h3 className="text-lg font-semibold text-zinc-100">{edu.degree}</h3>
-                <p className="mt-1 text-sm font-medium text-zinc-400">{edu.institution}</p>
-                <p className="mt-2 text-sm text-zinc-500">{edu.dates}</p>
+                <h3 className="text-base font-semibold text-zinc-100">{edu.degree}</h3>
+                <p className="mt-1 text-xs font-semibold text-emerald-400 uppercase tracking-wider">{edu.institution}</p>
+                <p className="mt-2 text-xs text-zinc-500 font-medium">{edu.dates}</p>
               </motion.div>
             ))}
           </div>
@@ -44,22 +44,22 @@ export default function Education() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mb-10"
+            className="mb-5"
           >
-            <h2 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl">
+            <h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-2xl">
               Certifications
             </h2>
           </motion.div>
 
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-3">
             {resumeData.certifications.map((cert, index) => (
               <motion.li
                 key={index}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="text-sm leading-relaxed text-zinc-400"
+                transition={{ delay: index * 0.05 }}
+                className="text-xs leading-relaxed text-zinc-400 border border-zinc-850 bg-zinc-900/10 px-4 py-2.5 rounded-xl hover:border-emerald-500/10 hover:bg-zinc-900/20 transition-all duration-300"
               >
                 • {cert}
               </motion.li>
