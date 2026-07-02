@@ -6,7 +6,7 @@ import resumeData from "@/data/resume.json";
 export default function Education() {
   return (
     <section id="education" className="w-full">
-      <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
+      <div className="max-w-3xl">
         {/* Education */}
         <div>
           <motion.div
@@ -36,35 +36,6 @@ export default function Education() {
               </motion.div>
             ))}
           </div>
-        </div>
-
-        {/* Certifications */}
-        <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-5"
-          >
-            <h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-2xl">
-              Certifications
-            </h2>
-          </motion.div>
-
-          <ul className="flex flex-col gap-3">
-            {resumeData.certifications.map((cert, index) => (
-              <motion.li
-                key={index}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
-                className="text-xs leading-relaxed text-zinc-400 border border-zinc-850 bg-zinc-900/10 px-4 py-2.5 rounded-xl hover:border-emerald-500/10 hover:bg-zinc-900/20 transition-all duration-300"
-              >
-                • {cert}
-              </motion.li>
-            ))}
-          </ul>
         </div>
       </div>
     </section>

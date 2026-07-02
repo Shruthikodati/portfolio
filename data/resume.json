@@ -20,8 +20,8 @@
   "experience": [
     {
       "company": "University of Illinois Chicago, College of Nursing",
-      "role": "Software Engineer (Graduate Assistant)",
-      "dates": "Oct 2025 – May 2026",
+      "role": "Software Engineer - Graduate Research Assistant",
+      "dates": "Dec 2024 – May 2026",
       "location": "Chicago, IL",
       "bullets": [
         "Spearheaded greenfield development and cloud deployment of a live production web application using Python, Flask, RESTful APIs, HTML5, CSS3, and JavaScript on Render via Git/GitHub CI/CD, automating end-to-end clinical dietary workflows for 3+ active nursing research teams and eliminating 40% of manual processing effort across 500+ structured dietary records per workflow cycle.",
@@ -35,32 +35,21 @@
       ]
     },
     {
-      "company": "University of Illinois Chicago, Housing Facilities",
-      "role": "Building Service Aide (Systems Support)",
-      "dates": "May 2025 – May 2026",
-      "location": "Chicago, IL",
-      "bullets": [
-        "Resolved and supported 50–70 weekly system-driven service requests, reducing average ticket resolution time by 30% through structured troubleshooting and root-cause analysis.",
-        "Identified recurring workflow inefficiencies and validation gaps, contributing to a 20% reduction in repeat service incidents.",
-        "Maintained operational logs and technical documentation improving audit traceability, cross-team collaboration, and process reliability across cross-functional production teams."
-      ]
-    },
-    {
-      "company": "CVR College of Engineering, Research & Development Cell",
-      "role": "Software Engineer (Student Intern)",
-      "dates": "Nov 2023 – Jun 2024",
+      "company": "CVR College of Engineering, R&D Cell",
+      "role": "Software Engineer, Intern",
+      "dates": "Jan 2023 - Jun 2024",
       "location": "Hyderabad, India",
       "bullets": [
-        "Developed a full-stack web application using React.js, Node.js, MongoDB, JavaScript, and Tailwind CSS to digitize and streamline research administration workflows and centralized data management.",
-        "Architected and implemented responsive frontend interfaces, RESTful APIs, backend services, and database-driven workflows for managing faculty profiles, research projects, publications, document submissions, and progress tracking.",
-        "Collaborated with stakeholders across 9 academic departments to gather requirements, analyze business processes, and translate functional needs into scalable and maintainable software solutions.",
-        "Built a centralized platform supporting 100+ faculty members, improving accessibility to research information, reducing manual effort, and enhancing operational efficiency.",
-        "Optimized application performance through efficient database design, API integration, data validation, debugging, and feature enhancements, ensuring reliability and a seamless user experience.",
-        "Executed the complete software development lifecycle, including requirements gathering, system design, development, testing, troubleshooting, deployment support, and continuous improvement initiatives."
+        "Engineered and deployed a full-stack research portal using React.js, Node.js, MongoDB, JavaScript, and Tailwind CSS, digitizing administrative workflows to eliminate manual tracking for 100+ faculty members.",
+        "Architected responsive user interfaces, modular RESTful APIs, and database-driven backend services, streamlining document submissions, publication indexing, and real-time project milestones.",
+        "Collaborated across 9 academic departments to analyze complex business processes, gather structural requirements, and translate them into maintainable, scalable software solutions.",
+        "Streamlined cross-departmental communications and research accessibility, reducing administrative processing latency by 40% and enhancing overall operational efficiency.",
+        "Optimized application performance and reliability by auditing database schemas, refining API endpoints, and implementing strict client-side and server-side data validation schemas.",
+        "Executed the end-to-end Software Development Life Cycle (SDLC), troubleshooting and resolving 30+ critical frontend/backend bugs during local test sprints and staging deployment phases."
       ]
     },
     {
-      "company": "Salesforce, Remote",
+      "company": "Salesforce",
       "role": "Salesforce Developer Intern",
       "dates": "Aug 2023 - Oct 2023",
       "location": "Remote",
@@ -361,11 +350,5 @@
       "institution": "CVR College of Engineering",
       "dates": "Aug 2020 – May 2024"
     }
-  ],
-  "certifications": [
-    "Salesforce Virtual Internship (CRM development and automation)",
-    "Agile Software Development Job Simulation (Forage)",
-    "Software Engineering Job Simulations with JPMorgan Chase and HP",
-    "Advanced Software Engineering Job Simulations with Walmart"
   ]
 }
