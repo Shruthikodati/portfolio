@@ -50,7 +50,7 @@ export default function Hero() {
 
           {/* Highlight Status Row */}
           <div className="text-xs sm:text-xs font-extrabold text-sky-400/90 tracking-wider uppercase max-w-2xl">
-            NEW GRAD | ACTIVELY SEEKING FULL TIME ROLES | OPEN TO SOFTWARE ENGINEER & DATA ROLES
+            NEW GRAD | ACTIVELY SEEKING FULL TIME ROLES | OPEN TO SOFTWARE / AI ENGINEER & DATA ROLES
           </div>
 
           {/* Uncompromised Resume Summary Paragraph */}

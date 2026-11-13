@@ -19,6 +19,16 @@
   },
   "experience": [
     {
+      "company": "University of Illinois Chicago",
+      "role": "AI Engineer",
+      "dates": "July 2026 – Present",
+      "bullets": [
+        "Built and deployed AI pipelines using LLMs, RAG, and MCP to support research workflows for 5+ academic teams.",
+        "Developed Python backend services and REST APIs that handle 1M+ requests per month.",
+        "Optimized SQL queries and vector search to reduce bottlenecks and improve accuracy under heavy load."
+      ]
+    },
+    {
       "company": "University of Illinois Chicago, College of Nursing",
       "role": "Software Engineer - Graduate Research Assistant",
       "dates": "Dec 2024 – May 2026",
